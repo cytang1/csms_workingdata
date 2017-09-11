@@ -4,10 +4,13 @@ This repository contains raw measurement data from the Cybersecurity for Smart M
 ## Background
 NIST has constructed a testbed to measure the performance impact induced by cybersecurity technologies on Industrial Control Systems (ICS). The testbed allows researchers to emulate real-world industrial manufacturing processes and their control systems by using software simulators and commercial control hardware in the laboratory environment.
 
-<u>Figure 1.</u> View of the Process Control System.[_process_rack]
+<u>Figure 1.</u> View of the Process Control System.![_process_rack]
 
 The focus of this repository is the Process Control System of the testbed. The Process Control System emulates an industrial continuous manufacturing system, a manufacturing process to produce or process materials continuously, where the materials are moving, going through chemical reactions, or undergoing mechanical or thermal treatment continuously. Continuous manufacturing usually implies a 24x7 operation with infrequent maintenance shutdowns and is contrasted with batch manufacturing. Examples of continuous manufacturing systems include chemical production, oil refining, natural gas processing, and waste water treatment.
 The Process Control System uses the Tennessee Eastman challenge problem, a real-world industrial chemical manufacturing process, as the simulation model for the chemical reaction. The system integrates the control algorithm developed by Ricker, to control the simulated chemical reaction. With the use of widely deployed industrial hardware like programmable logic controllers (PLCs) and industrial network switches as part of the control loop, this system emulates a complete setup of a continuous chemical manufacturing system \[[NISTIR 8188][_IR8188]\].
+
+__Figure 2.__ Network diagram of the Process Control System.
+![_netdiag]
 
 ## Measurements
 Measurement data are in the raw format obtained directly from the testbed systems. Raw data from an experiment are stored either as an individual file in .xlsx format or a tab inside the combined .xlsx file, depending on the experiment. 
