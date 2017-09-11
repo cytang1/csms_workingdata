@@ -39,7 +39,7 @@ the best available for the purpose.
 [_IR8089]: http://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8089.pdf
 [_IR8188]: http://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8188.pdf
 [_CSMS]: https://www.nist.gov/programs-projects/cybersecurity-smart-manufacturing-systems
-[_netdiag]: ./readme_assets/ProcessControl_Network.png "Process Control System Network Diagram"
+[_netdiag]: ./readme_assets/te_network.png "Process Control System Network Diagram"
 [_meta]: ./METADATA.md
 [_process_rack]: ./readme_assets/ProcessControlSystem.jpg "Process Control System"
 [_license]: ./LICENSE.md
