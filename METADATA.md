@@ -7,4 +7,6 @@ Sensor and actuator data obtained from the chemical process simulation. Each col
 ### Chemical Process Data File (historian_<experiment_description>.xlsx)
 Sensor and actuator values of the chemical process obtained from the Data Historian. File is stored in Excel foramt. Each worksheet tab is an individual sensor or actuator.
 
+### Computing Resources Performance File (computing_<device_Name>_<experiment_description>.xlsx)
+Computing resources data obtained from the computer or devices in the Process Control System.
 
